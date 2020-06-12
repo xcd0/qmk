@@ -3,13 +3,13 @@
 // Each keymap.c should use is_keyboard_master() instead of 'is_master'.
 // But keep 'is_master' for a while for backwards compatibility
 //  for the old keymap.c.
-uint8_t is_master = false;
+//uint8_t is_master = false;
 
 void matrix_init_kb(void) {
     // Each keymap.c should use is_keyboard_master() instead of is_master.
     // But keep is_master for a while for backwards compatibility
     //  for the old keymap.c.
-    is_master = is_keyboard_master();
+    //is_master = is_keyboard_master();
 
 	matrix_init_user();
 };

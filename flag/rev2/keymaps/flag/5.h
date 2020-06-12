@@ -1,5 +1,5 @@
 
-#include"keymap_jp.h"
+#include "keymap_jp.h"
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
@@ -18,11 +18,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    */
 
   [_QWERTY] = LAYOUT( \
-      JP_LGUI, JP_ESC,  JP_1,    JP_2,    JP_3,    JP_4,    JP_5,    _______,  /**/   _______, JP_6,    JP_7,    JP_8,    JP_9,    JP_0,    JP_MINS, KC_DEL,  \
+      _______, JP_ESC,  JP_1,    JP_2,    JP_3,    JP_4,    JP_5,    JP_LT,    /**/   JP_GT,   JP_6,    JP_7,    JP_8,    JP_9,    JP_0,    JP_MINS, KC_DEL,  \
       JP_LALT, JP_TAB,  JP_Q,    JP_W,    JP_E,    JP_R,    JP_T,    JP_LPRN,  /**/   JP_RPRN, JP_Y,    JP_U,    JP_I,    JP_O,    JP_P,    JP_AT,   KC_BSPC, \
-      JP_INS,  _______, JP_A,    JP_S,    JP_D,    JP_F,    JP_G,    JP_LBRC,  /**/   JP_RBRC, JP_H,    JP_J,    JP_K,    JP_L,    JP_SCLN, JP_COLN, KC_ENT,  \
-      JP_HOME, _______, JP_Z,    JP_X,    JP_C,    JP_V,    JP_B,    JP_LCBR,  /**/   JP_RCBR, JP_N,    JP_M,    JP_COMM, JP_DOT,  JP_SLSH, JP_BSLS, JP_END,  \
-                                 KC_MHEN, JP_LCTL, JP_SPC,  JP_LSFT, LEFT,     /**/   RIGHT,   JP_BSPC, JP_ENT,  JP_DEL,  KC_HENK                             \
+      JP_INS,  SYMBOL,  JP_A,    JP_S,    JP_D,    JP_F,    JP_G,    JP_LBRC,  /**/   JP_RBRC, JP_H,    JP_J,    JP_K,    JP_L,    JP_SCLN, JP_COLN, KC_ENT,  \
+      JP_HOME, JP_LGUI, JP_Z,    JP_X,    JP_C,    JP_V,    JP_B,    JP_LCBR,  /**/   JP_RCBR, JP_N,    JP_M,    JP_COMM, JP_DOT,  JP_SLSH, JP_BSLS, JP_END,  \
+                                 KC_MHEN, JP_LCTL, JP_LSFT, JP_SPC,  LEFT,     /**/   RIGHT,   JP_BSPC, JP_ENT,  JP_DEL,  KC_HENK                             \
       ),
 
   /* Ystrp
@@ -40,11 +40,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    */
 
   [_YSTRP] = LAYOUT( \
-      JP_LGUI, JP_ESC,  JP_1,    JP_2,    JP_3,    JP_4,    JP_5,    _______,  /**/   _______, JP_6,    JP_7,    JP_8,    JP_9,   JP_0,    JP_MINS, KC_DEL,  \
+      _______, JP_ESC,  JP_1,    JP_2,    JP_3,    JP_4,    JP_5,    JP_LT,    /**/   JP_GT,   JP_6,    JP_7,    JP_8,    JP_9,   JP_0,    JP_MINS, KC_DEL,  \
       JP_LALT, JP_TAB,  JP_Q,    JP_W,    JP_D,    JP_F,    JP_G,    JP_LPRN,  /**/   JP_RPRN, JP_Y,    JP_S,    JP_T,    JP_R,   JP_P,    JP_AT,   KC_BSPC, \
-      JP_INS,  _______, JP_A,    JP_O,    JP_E,    JP_U,    JP_I,    JP_LBRC,  /**/   JP_RBRC, JP_H,    JP_J,    JP_K,    JP_L,   JP_SCLN, JP_COLN, KC_ENT,  \
-      JP_HOME, _______, JP_Z,    JP_X,    JP_C,    JP_V,    JP_B,    JP_LCBR,  /**/   JP_RCBR, JP_N,    JP_M,    JP_COMM, JP_DOT, JP_SLSH, JP_BSLS, JP_END,  \
-                                 EISU,    JP_LCTL, JP_SPC,  JP_LSFT, LEFT,     /**/   RIGHT,   JP_BSPC, JP_ENT,  JP_DEL,  KANA                               \
+      JP_INS,  SYMBOL,  JP_A,    JP_O,    JP_E,    JP_U,    JP_I,    JP_LBRC,  /**/   JP_RBRC, JP_H,    JP_J,    JP_K,    JP_L,   JP_SCLN, JP_COLN, KC_ENT,  \
+      JP_HOME, JP_LGUI, JP_Z,    JP_X,    JP_C,    JP_V,    JP_B,    JP_LCBR,  /**/   JP_RCBR, JP_N,    JP_M,    JP_COMM, JP_DOT, JP_SLSH, JP_BSLS, JP_END,  \
+                                 KC_MHEN, JP_LCTL, JP_LSFT, JP_SPC,  LEFT,     /**/   RIGHT,   JP_BSPC, JP_ENT,  JP_DEL,  KC_HENK                             \
       ),
 
   /* LEFT
@@ -95,7 +95,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * ,-------------------------------------------------------.  ,-------------------------------------------------------.
    * | GUI  | ESC  |  1   |  2   |  3   |  4   |  5   |      |  |      |  6   |  7   |  8   |  9   |  0   |      |      |
    * |------+------+------+------+------+------+------+------|  |------+------+------+------+------+------+------+------|
-   * | Alt  | TAB  |  ~   |  _   |  "   |  '   |  `   |      |  |      |  &   |  (   |  <   |  {   |  [   |      |      |
+   * | Alt  | TAB  |      |  _   |  "   |  '   |  `   |      |  |      |  &   |  (   |  <   |  {   |  [   |      |      |
    * |------+------+------+------+------+------+------+------|  |------+------+------+------+------+------+------+------|
    * |Insert|      |  +   |  -   |  *   |  =   |  :   |      |  |      |  |   |  )   |  >   |  }   |  ]   |      |      |
    * |------+------+------+------+------+------+------+------|  |------+------+------+------+------+------+------+------|

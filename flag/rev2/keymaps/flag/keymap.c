@@ -39,38 +39,8 @@ enum macro_keycodes {
 //Macros
 #define M_SAMPLE M(KC_SAMPLEMACRO)
 
-#include"keymap_jp.h"
-#define JP_BTN1 KC_BTN1
-#define JP_BTN2 KC_BTN2
-#define JP_BTN3 KC_BTN3
-#define JP_WH_U KC_WH_U
-#define JP_WH_D KC_WH_D
-#define JP_MS_L KC_MS_L
-#define JP_MS_U KC_MS_U
-#define JP_MS_D KC_MS_D
-#define JP_MS_R KC_MS_R
-#define JP_LEFT KC_LEFT
-#define JP_DOWN KC_DOWN
-#define JP_UP   KC_UP
-#define JP_RGHT KC_RGHT
-#define JP_BSPC KC_BSPC
-#define JP_DEL  KC_EQL
-#define JP_ENT  KC_ENT
-#define JP_SPC  KC_SPC
-#define JP_HOME KC_HOME
-#define JP_END  KC_END
-#define JP_INS  KC_INS
-#define JP_ESC  KC_ESC
-#define JP_TAB  KC_TAB
-#define JP_LALT KC_LALT
-#define JP_LCTL KC_LCTL
-#define JP_LSFT KC_LSFT
-#define JP_LGUI KC_LGUI
-#define JP_LEFT KC_LEFT
-#define JP_DOWN KC_DOWN
-#define JP_UP   KC_UP
-#define JP_RGHT KC_RGHT
 
+#include "keymap_jp.h"
 #include "5.h"
 
 // define variables for reactive RGB
