@@ -10,5 +10,5 @@ cd ../qmk_firmware
 
 make $keyboard:$build:avrdude
 
-cp *.hex ../helix_show
+cp *.hex ../qmw
 
