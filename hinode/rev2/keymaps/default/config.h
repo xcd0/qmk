@@ -23,7 +23,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // place overrides here
 //
 #define MANUFACTURER    xcd0
-#define PRODUCT         Hinode
+//#define PRODUCT         Hinode
 #define DESCRIPTION     A handwired split keyboard
 
 // If you need more program area, try select and reduce rgblight modes to use.

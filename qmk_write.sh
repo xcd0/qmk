@@ -8,7 +8,5 @@ build=$2
 
 cd ../qmk_firmware
 
-make $keyboard:$build:avrdude
-
-cp *.hex ../qmw
+make $keyboard:$build:avrdude && cp *.hex ../qmk
 

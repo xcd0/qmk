@@ -3,7 +3,9 @@
 SCRIPT_DIR=$(cd $(dirname $0); pwd)
 cd $SCRIPT_DIR
 
-./qmk_build.sh $1 $2
+./qmk_copy.sh
 
-./qmk_write.sh $1 $2
+./qmk_build.sh hinode default
+
+./qmk_write.sh hinode default
 

@@ -24,7 +24,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PRODUCT_ID      0x0000
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    xcd0
-#define PRODUCT         hinode
+#define PRODUCT         Hinode
 #define DESCRIPTION     A handwired split keyboard
 
 // If you need more program area, try select and reduce rgblight modes to use.
