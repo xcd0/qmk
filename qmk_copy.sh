@@ -27,4 +27,11 @@ cp -rf ${SCRIPT_DIR}/helix ../qmk_firmware/keyboards/helix/rev2/keymaps/
 echo ls -al ../qmk_firmware/keyboards/helix/rev2/keymaps/
 ls -al ../qmk_firmware/keyboards/helix/rev2/keymaps/
 
+if [ -e /mnt/c/home ]; then
+	echo cp -rf $SCRIPT_DIR /mnt/c/home/work/
+	cp -rf $SCRIPT_DIR /mnt/c/home/work/
+	echo ls -al /mnt/c/home/work/qmk
+	ls -al /mnt/c/home/work/qmk
+fi
+
 

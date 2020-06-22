@@ -7,5 +7,7 @@ cd $SCRIPT_DIR
 
 ./qmk_build.sh hinode default
 
-./qmk_write.sh hinode default
+#./qmk_write.sh hinode default
+
+./qmk_copy.sh
 
